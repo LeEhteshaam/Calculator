@@ -1,0 +1,100 @@
+* {
+    background-color: black;
+    color: #D4D4D2;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 38px;
+  }
+
+#screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+#number {
+    font-size: 38px;
+}
+  
+.operation {
+    background-color:  #FF9500;
+    border-radius: 100%;
+    border-width: 0px;
+    height: 90px;
+    width: 90px;
+    font-size: 38px;
+}
+
+.operation:hover {
+    background-color: #D4D4D2;
+    color:  #FF9500;
+    transform: scale(1.1);
+}
+
+.number {
+    background-color: #1D1D1D;
+    border-radius: 100%;
+    border-width: 0px;
+    height: 90px;
+    width: 90px;
+    font-size: 38px;
+}
+
+.number:hover {
+    background-color: #2F2F2F;
+    transform: scale(1.1);
+}
+
+.special {
+    border-radius: 100%;
+    border-width: 0px;
+    height: 90px;
+    width: 90px;
+    color: black;
+    background-color: #D4D4D2;
+    font-size: 38px;
+}
+
+.special:hover {
+    transform: scale(1.1);
+    background-color: #EEEEEE;
+}
+
+#zero {
+    border-radius: 90px;
+    width: 196px; 
+    height: 90px; 
+    font-size: 38px;
+}
+
+#decimal {
+    background-color: #1D1D1D;
+    border-radius: 100%;
+    border-width: 0px;
+    height: 90px;
+    width: 90px;
+    font-size: 38px;
+}
+
+#decimal:hover {
+    background-color: #2F2F2F;
+    transform: scale(1.1);
+}
+
+#credits {
+    margin-top: 50px;
+    font-family:'Playfair Display';
+    font-size: 20px;
+}
+
+#screen {
+    margin-top: 300px;
+}
+
+  
+  
